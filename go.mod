@@ -8,18 +8,24 @@ require (
 	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8
 )
 
-replace github.com/xtls/xray-core => github.com/djoeni/xray-core v0.9.6
+replace github.com/xtls/xray-core => github.com/djoeni/xray-core v0.0.1
 
 require (
+	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/cheekybits/genny v1.0.0 // indirect
+	github.com/dgryski/go-camellia v0.0.0-20191119043421-69a8a13fb23d // indirect
+	github.com/dgryski/go-idea v0.0.0-20170306091226-d2fb45a411fb // indirect
 	github.com/dgryski/go-metro v0.0.0-20211217172704-adc40b04c140 // indirect
+	github.com/dgryski/go-rc2 v0.0.0-20150621095337-8a9021637152 // indirect
 	github.com/djoeni/websocket v0.6.9 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
+	github.com/geeksbaek/seed v0.0.0-20180909040025-2a7f5fb92e22 // indirect
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/kierdavis/cfb8 v0.0.0-20180105024805-3a17c36ee2f8 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/klauspost/cpuid/v2 v2.1.0 // indirect
 	github.com/lucas-clemente/quic-go v0.28.1 // indirect
@@ -39,6 +45,8 @@ require (
 	github.com/v2fly/ss-bloomring v0.0.0-20210312155135-28617310f63e // indirect
 	github.com/xtls/go v0.0.0-20210920065950-d4af136d3672 // indirect
 	go.starlark.net v0.0.0-20220714194419-4cadf0a12139 // indirect
+	go4.org/intern v0.0.0-20220617035311-6925f38cc365 // indirect
+	go4.org/unsafe/assume-no-moving-gc v0.0.0-20220617031537-928513b29760 // indirect
 	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d // indirect
 	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/net v0.0.0-20220708220712-1185a9018129 // indirect
@@ -49,5 +57,6 @@ require (
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
+	inet.af/netaddr v0.0.0-20220617031823-097006376321 // indirect
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
