@@ -5,10 +5,10 @@ go 1.18
 require (
 	github.com/xtls/xray-core v1.6.5
 	golang.org/x/mobile v0.0.0-20220414153400-ce6a79cf6a13
-	golang.org/x/sys v0.2.0
+	golang.org/x/sys v0.3.0
 )
 
-replace github.com/xtls/xray-core => github.com/djoeni/xray-core v0.0.6
+replace github.com/xtls/xray-core => github.com/djoeni/xray-core v0.0.7
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
