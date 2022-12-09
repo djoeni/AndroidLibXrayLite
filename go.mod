@@ -8,12 +8,12 @@ require (
 	golang.org/x/sys v0.3.0
 )
 
-replace github.com/xtls/xray-core => github.com/djoeni/xray-core v0.0.7
+replace github.com/xtls/xray-core => github.com/djoeni/xray-core v0.0.1-b1
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/dgryski/go-metro v0.0.0-20211217172704-adc40b04c140 // indirect
-	github.com/djoeni/websocket v0.6.9 // indirect
+	github.com/djoeni/websocket v0.7.1 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
@@ -40,11 +40,11 @@ require (
 	github.com/xtls/go v0.0.0-20220914232946-0441cf4cf837 // indirect
 	go.starlark.net v0.0.0-20221028183056-acb66ad56dd2 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
-	golang.org/x/crypto v0.3.0 // indirect
+	golang.org/x/crypto v0.4.0 // indirect
 	golang.org/x/exp v0.0.0-20221126150942-6ab00d035af9 // indirect
 	golang.org/x/mod v0.7.0 // indirect
-	golang.org/x/net v0.2.0 // indirect
-	golang.org/x/text v0.4.0 // indirect
+	golang.org/x/net v0.4.0 // indirect
+	golang.org/x/text v0.5.0 // indirect
 	golang.org/x/time v0.2.0 // indirect
 	golang.org/x/tools v0.3.0 // indirect
 	google.golang.org/genproto v0.0.0-20221118155620-16455021b5e6 // indirect
