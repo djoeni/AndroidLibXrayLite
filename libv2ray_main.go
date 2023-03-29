@@ -87,9 +87,13 @@ func (v *V2RayPoint) RunLoop(prefIPv6 bool) (err error) {
 		}()
 
 		if v.AsyncResolve {
-			go v.dialer.PrepareDomain(v.DomainName, v.closeChan, prefIPv6)
+			go func() {
+				v.dialer.PrepareDomain(v.DomainName, v.closeChan, prefIPv6)
+				close(v.dialer.ResolveChan())
+			}()
 		} else {
 			v.dialer.PrepareDomain(v.DomainName, v.closeChan, prefIPv6)
+			close(v.dialer.ResolveChan())
 		}
 
 		err = v.pointloop()
@@ -270,7 +274,7 @@ func measureInstDelay(ctx context.Context, inst *v2core.Instance) (int64, error)
 		Timeout:   12 * time.Second,
 	}
 
-	req, _ := http.NewRequestWithContext(ctx, "GET", "http://www.google.com/generate_204", nil)
+	req, _ := http.NewRequestWithContext(ctx, "GET", "https://www.google.com/generate_204", nil)
 	start := time.Now()
 	resp, err := c.Do(req)
 	if err != nil {
