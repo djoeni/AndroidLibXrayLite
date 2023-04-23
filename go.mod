@@ -8,7 +8,7 @@ require (
 	golang.org/x/sys v0.7.0
 )
 
-replace github.com/xtls/xray-core => github.com/djoeni/xray-core v0.0.1-b9
+replace github.com/xtls/xray-core => github.com/djoeni/xray-core v0.0.1-b10
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
@@ -33,7 +33,7 @@ require (
 	github.com/quic-go/quic-go v0.34.0 // indirect
 	github.com/refraction-networking/utls v1.3.2 // indirect
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
-	github.com/sagernet/sing v0.2.3 // indirect
+	github.com/sagernet/sing v0.2.4 // indirect
 	github.com/sagernet/sing-shadowsocks v0.2.1 // indirect
 	github.com/sagernet/wireguard-go v0.0.0-20221116151939-c99467f53f2c // indirect
 	github.com/seiflotfy/cuckoofilter v0.0.0-20220411075957-e3b120b3f5fb // indirect
